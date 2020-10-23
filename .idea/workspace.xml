@@ -32,7 +32,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
-    <configuration name="CukesRunners" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="conSenseAutomation" />
       <extension name="coverage">
         <pattern>
@@ -41,7 +41,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.conSense.runners" />
-      <option name="MAIN_CLASS_NAME" value="com.conSense.runners.CukesRunners" />
+      <option name="MAIN_CLASS_NAME" value="com.conSense.runners.CukesRunner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -71,25 +71,25 @@
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="100" y="123" width="1240" height="627" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.827@0.23.1440.827" timestamp="1603409946254" />
-    <state width="1398" height="2" key="GridCell.Tab.0.bottom" timestamp="1603482248834">
+    <state width="1398" height="156" key="GridCell.Tab.0.bottom" timestamp="1603490242708">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1398" height="2" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1603482248834" />
+    <state width="1398" height="156" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1603490242708" />
     <state width="1398" height="306" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1603402804906" />
-    <state width="1398" height="2" key="GridCell.Tab.0.center" timestamp="1603482248834">
+    <state width="1398" height="156" key="GridCell.Tab.0.center" timestamp="1603490242707">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1398" height="2" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1603482248834" />
+    <state width="1398" height="156" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1603490242707" />
     <state width="1398" height="306" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1603402804906" />
-    <state width="1398" height="2" key="GridCell.Tab.0.left" timestamp="1603482248833">
+    <state width="1398" height="156" key="GridCell.Tab.0.left" timestamp="1603490242707">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1398" height="2" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1603482248833" />
+    <state width="1398" height="156" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1603490242707" />
     <state width="1398" height="306" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1603402804906" />
-    <state width="1398" height="2" key="GridCell.Tab.0.right" timestamp="1603482248834">
+    <state width="1398" height="156" key="GridCell.Tab.0.right" timestamp="1603490242707">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1398" height="2" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1603482248834" />
+    <state width="1398" height="156" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1603490242707" />
     <state width="1398" height="306" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1603402804906" />
     <state x="664" y="200" width="689" height="472" key="find.popup" timestamp="1603378248954">
       <screen x="0" y="23" width="1440" height="827" />

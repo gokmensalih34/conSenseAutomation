@@ -13,8 +13,11 @@
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <parallel>false</parallel>
+        <ReportName>conSense Cucumber Report</ReportName>
     </properties>
-
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -48,7 +51,6 @@
 
     </dependencies>
 
-
     <build>
         <plugins>
             <plugin>
@@ -57,7 +59,8 @@
                 <version>2.22.2</version>
                 <configuration>
                     <parallel>methods</parallel>
-                    <useUnlimitedThreads>true</useUnlimitedThreads>
+                    <threadCount>1</threadCount>
+                    <perCoreThreadCount>${parallel}</perCoreThreadCount>
                     <testFailureIgnore>true</testFailureIgnore>
                     <runOrder>Alphabetical</runOrder>
                     <includes>
@@ -77,7 +80,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <projectName>Cucumber HTML Reports</projectName>
+                            <projectName>${ReportName}</projectName>
                             <outputDirectory>${project.build.directory}</outputDirectory>
                             <inputDirectory>${project.build.directory}</inputDirectory>
                             <jsonFiles>
@@ -90,6 +93,5 @@
             </plugin>
         </plugins>
     </build>
-
 
 </project>

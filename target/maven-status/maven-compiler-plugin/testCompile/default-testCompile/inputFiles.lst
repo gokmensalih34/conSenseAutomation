@@ -1,7 +1,7 @@
+/Users/sgok/IdeaProjects/conSenseAutomation/src/test/java/com/conSense/runners/CukesRunner.java
 /Users/sgok/IdeaProjects/conSenseAutomation/src/test/java/com/conSense/stepdefinitions/Hooks.java
 /Users/sgok/IdeaProjects/conSenseAutomation/src/test/java/com/conSense/pages/HomePage.java
 /Users/sgok/IdeaProjects/conSenseAutomation/src/test/java/com/conSense/utilities/BrowserUtils.java
-/Users/sgok/IdeaProjects/conSenseAutomation/src/test/java/com/conSense/runners/CukesRunners.java
 /Users/sgok/IdeaProjects/conSenseAutomation/src/test/java/com/conSense/pages/BasePage.java
 /Users/sgok/IdeaProjects/conSenseAutomation/src/test/java/com/conSense/pages/ZahlenDatenFakten.java
 /Users/sgok/IdeaProjects/conSenseAutomation/src/test/java/com/conSense/utilities/Driver.java
