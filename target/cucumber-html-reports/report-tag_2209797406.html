@@ -41,7 +41,7 @@ $(document).ready(function() {
 
 
 
-<title>Cucumber Reports (no 1) - Feature: Verifyig the foundation year</title>
+<title>Cucumber Reports (no 1) - Tag: @home</title>
 
 </head>
 <body>
@@ -76,7 +76,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>Cucumber HTML Reports</td>
         <td>1</td>
-      <td>23 Oct 2020, 01:59</td>
+      <td>23 Oct 2020, 13:58</td>
     </tr>
   </tbody>
 </table>
@@ -89,7 +89,7 @@ $(document).ready(function() {
 
 <div id="report-lead" class="container-fluid">
   <div class="col-md-10 col-md-offset-1">
-    <h2>Feature Report</h2>
+    <h2>Tag Report</h2>
   </div>
 </div>
 
@@ -108,7 +108,7 @@ $(document).ready(function() {
     <th colspan="2">Features</th>
   </tr>
   <tr>
-    <th>Feature</th>
+    <th>Tag</th>
     <th class="passed">Passed</th>
     <th class="failed">Failed</th>
     <th class="skipped">Skipped</th>
@@ -128,20 +128,20 @@ $(document).ready(function() {
 
         <tbody>
         <tr>
-          <td class="tagname">Verifyig the foundation year</td>
-          <td      class="passed"    >2</td>
-          <td      class="failed"    >1</td>
+          <td class="tagname">@home</td>
+          <td      class="passed"    >3</td>
+          <td >0</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
           <td class="total">3</td>
 
+          <td  class="passed"    >1</td>
           <td >0</td>
-          <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="19010429000">19.010</td>
-          <td class="failed">Failed</td>
+          <td class="duration" data-value="2589494000">2.589</td>
+          <td class="passed">Passed</td>
         </tr>
         </tbody>
 
@@ -167,42 +167,31 @@ $(document).ready(function() {
 <div class="container-fluid" id="report">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
-      <div class="feature">
+      <div class="elements">
 
-<div class="tags indention">
-    <b>Tags:</b>
-       <a href="report-tag_2149507997.html">@wip</a>
-</div>
-
-
-<div class="brief failed">
-  <span class="keyword indention">Feature</span>
-  <span class="name">Verifyig the foundation year</span>
-
-
-</div>
-
-        <div class="description indention"></div>
-
-        <div class="elements inner-level">
 
 <div class="element">
+    <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_2231383881.html">Verifying Tabs</a>
+    </div>
 
 
 <div class="tags indention">
     <b>Tags:</b>
        <a href="report-tag_2149507997.html">@wip</a>
+       <a href="report-tag_2209797406.html">@home</a>
 </div>
 
 
-  <span class="lead-duration duration">19.010</span>
+  <span class="lead-duration duration">2.589</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
-  <span class="name">The foundation year should see be same</span>
+  <span class="name">Verifying Tabs at HomePage</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -211,7 +200,7 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details  in ">
+  <div id="element-1" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
@@ -233,7 +222,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
               <span class="location name">com.conSense.stepdefinitions.Hooks.setUp()</span>
 
-  <span class="lead-duration duration">1.328</span>
+  <span class="lead-duration duration">1.695</span>
 
           </div>
 
@@ -250,9 +239,9 @@ $(document).ready(function() {
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-3">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-3">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -262,7 +251,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-3" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-3" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -270,7 +259,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">the user access HomePage</span>
 
-  <span class="lead-duration duration">2.351</span>
+  <span class="lead-duration duration">2.364</span>
 
 </div>
 
@@ -293,38 +282,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-When passed">
-  <span class="keyword indention">When</span>
-  <span class="name">the user navigate to <span class="argument">&quot;zahlen-daten-fakten&quot;</span></span>
-
-  <span class="lead-duration duration">12.595</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then failed">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
-  <span class="name">the foundation years are same at <span class="argument">&quot;HomePage&quot;</span> and <span class="argument">&quot;zahlen-daten-fakten Page&quot;</span></span>
+  <span class="name">the page title is <span class="argument">&quot;ConSense GmbH &ndash; Die Software f&uuml;r Prozess- und Qualit&auml;tsmanagement: ConSense&quot;</span></span>
 
-  <span class="lead-duration duration">4.063</span>
+  <span class="lead-duration duration">0.007</span>
 
 </div>
 
@@ -333,22 +295,66 @@ $(document).ready(function() {
 
 
 
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
-          <a>org.junit.ComparisonFailure:</a>
-      </div>
-      <div id="msg-4" class="collapse collapsable-details  in ">
-        <pre>org.junit.ComparisonFailure: Verifing the displayed experice years are same expected:&lt;1[7]&gt; but was:&lt;1[5]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at com.conSense.stepdefinitions.ZahlenDatenFaktenStepdefinitions.the_foundation_years_are_same_at_and(ZahlenDatenFaktenStepdefinitions.java:64)
-	at &#10045;.the foundation years are same at &quot;HomePage&quot; and &quot;zahlen-daten-fakten Page&quot;(file:///Users/sgok/IdeaProjects/conSenseAutomation/src/test/resources/features/zahlen-daten-fakten.feature:6)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the user see the following at <span class="argument">&quot;HomePage&quot;</span></span>
+
+  <span class="lead-duration duration">0.217</span>
+
+</div>
+
+
+
+
+
+
+
+          <table class="step-arguments">
+              <tr>
+                  <td>Home</td>
+              </tr>
+              <tr>
+                  <td>ConSense</td>
+              </tr>
+              <tr>
+                  <td>L&ouml;sungen</td>
+              </tr>
+              <tr>
+                  <td>Dienstleistungen</td>
+              </tr>
+              <tr>
+                  <td>Branchen</td>
+              </tr>
+              <tr>
+                  <td>Normen</td>
+              </tr>
+              <tr>
+                  <td>Referenzen</td>
+              </tr>
+              <tr>
+                  <td>Karriere</td>
+              </tr>
+              <tr>
+                  <td>Aktuelles</td>
+              </tr>
+              <tr>
+                  <td>Kontakt</td>
+              </tr>
+          </table>
 
 
 
@@ -366,7 +372,7 @@ $(document).ready(function() {
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-5">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -378,13 +384,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-5" class="inner-level collapse collapsable-details ">
+    <div id="after-4" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">com.conSense.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.625</span>
+  <span class="lead-duration duration">0.102</span>
 
           </div>
 
@@ -393,21 +399,6 @@ $(document).ready(function() {
 
 
 
-  <div class="embeddings inner-level">
-  <div class="embedding indention">
-    <div data-toggle="collapse" data-target="#embedding-6" class="collapsable-control">
-      <a>screenshot</a>
-      <a href="embeddings/embedding_1261243238.png" download target="_blank">
-        <span class="download-button glyphicon glyphicon-download-alt"></span>
-      </a>
-    </div>
-    <div id="embedding-6" class="collapse collapsable-details ">
-      <div class="embedding-content">
-        <img src="embeddings/embedding_1261243238.png">
-      </div>
-    </div>
-  </div>
-  </div>
 
         </div>
     </div>
@@ -416,7 +407,6 @@ $(document).ready(function() {
   </div>
 </div>
 
-        </div>
 
       </div>
     </div>

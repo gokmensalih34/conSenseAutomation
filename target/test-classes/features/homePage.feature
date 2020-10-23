@@ -1,4 +1,4 @@
-@wip
+@wip @home
 Feature: Verifying Tabs
   Scenario: Verifying Tabs at HomePage
     Given the user access HomePage
