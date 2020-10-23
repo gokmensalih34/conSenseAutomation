@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="427c5fad-9f25-4cda-8725-587f5227d81a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jC6YXAPNZ1sAmWYbbHaoTDmQLT" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showModules" value="false" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="CukesRunners" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="conSenseAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.conSense.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.conSense.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.conSense.runners.CukesRunners" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CukesRunners" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="427c5fad-9f25-4cda-8725-587f5227d81a" name="Default Changelist" comment="" />
+      <created>1603295773476</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603295773476</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="123" width="1240" height="627" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1603409946254">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="100" y="123" width="1240" height="627" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.827@0.23.1440.827" timestamp="1603409946254" />
+    <state width="1398" height="233" key="GridCell.Tab.0.bottom" timestamp="1603411176824">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1398" height="233" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1603411176824" />
+    <state width="1398" height="306" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1603402804906" />
+    <state width="1398" height="233" key="GridCell.Tab.0.center" timestamp="1603411176823">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1398" height="233" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1603411176823" />
+    <state width="1398" height="306" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1603402804906" />
+    <state width="1398" height="233" key="GridCell.Tab.0.left" timestamp="1603411176823">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1398" height="233" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1603411176823" />
+    <state width="1398" height="306" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1603402804906" />
+    <state width="1398" height="233" key="GridCell.Tab.0.right" timestamp="1603411176824">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1398" height="233" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1603411176824" />
+    <state width="1398" height="306" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1603402804906" />
+    <state x="664" y="200" width="689" height="472" key="find.popup" timestamp="1603378248954">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="664" y="200" width="689" height="472" key="find.popup/0.23.1440.827@0.23.1440.827" timestamp="1603378248954" />
+    <state x="477" y="369" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1603319026222">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="477" y="369" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.23.1440.827@0.23.1440.827" timestamp="1603319026222" />
+  </component>
+</project>
