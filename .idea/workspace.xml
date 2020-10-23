@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="427c5fad-9f25-4cda-8725-587f5227d81a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/conSense/runners/CukesRunners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/conSense/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/conSenseAutomation-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/conSenseAutomation-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_2231383881.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_2149507997.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_2149507997.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_2209797406.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_2209797406.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/conSense/runners/CukesRunners.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +61,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="CukesRunners" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="conSenseAutomation" />
       <extension name="coverage">
         <pattern>
@@ -53,7 +70,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.conSense.runners" />
-      <option name="MAIN_CLASS_NAME" value="com.conSense.runners.CukesRunners" />
+      <option name="MAIN_CLASS_NAME" value="com.conSense.runners.CukesRunner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,25 +100,25 @@
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="100" y="123" width="1240" height="627" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.827@0.23.1440.827" timestamp="1603409946254" />
-    <state width="1398" height="150" key="GridCell.Tab.0.bottom" timestamp="1603455251242">
+    <state width="1398" height="235" key="GridCell.Tab.0.bottom" timestamp="1603488915537">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1398" height="150" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1603455251242" />
+    <state width="1398" height="235" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1603488915537" />
     <state width="1398" height="306" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1603402804906" />
-    <state width="1398" height="150" key="GridCell.Tab.0.center" timestamp="1603455251241">
+    <state width="1398" height="235" key="GridCell.Tab.0.center" timestamp="1603488915536">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1398" height="150" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1603455251241" />
+    <state width="1398" height="235" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1603488915536" />
     <state width="1398" height="306" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1603402804906" />
-    <state width="1398" height="150" key="GridCell.Tab.0.left" timestamp="1603455251240">
+    <state width="1398" height="235" key="GridCell.Tab.0.left" timestamp="1603488915535">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1398" height="150" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1603455251240" />
+    <state width="1398" height="235" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1603488915535" />
     <state width="1398" height="306" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1603402804906" />
-    <state width="1398" height="150" key="GridCell.Tab.0.right" timestamp="1603455251242">
+    <state width="1398" height="235" key="GridCell.Tab.0.right" timestamp="1603488915536">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1398" height="150" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1603455251242" />
+    <state width="1398" height="235" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1603488915536" />
     <state width="1398" height="306" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1603402804906" />
     <state x="221" y="75" key="SettingsEditor" timestamp="1603412674625">
       <screen x="0" y="23" width="1440" height="827" />
