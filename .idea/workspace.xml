@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="427c5fad-9f25-4cda-8725-587f5227d81a" name="Default Changelist" comment="" />
+    <list default="true" id="427c5fad-9f25-4cda-8725-587f5227d81a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/conSense/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/conSense/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/conSense/stepdefinitions/ZahlenDatenFaktenStepdefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/conSense/stepdefinitions/ZahlenDatenFaktenStepdefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/zahlen-daten-fakten.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/zahlen-daten-fakten.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded0.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/embedded0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/conSense/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/conSense/runners/CukesRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/conSense/stepdefinitions/ZahlenDatenFaktenStepdefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/conSense/stepdefinitions/ZahlenDatenFaktenStepdefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/zahlen-daten-fakten.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/zahlen-daten-fakten.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +25,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -29,6 +44,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
@@ -49,7 +65,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CukesRunners" />
+        <item itemvalue="JUnit.CukesRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -66,31 +82,48 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="100" y="123" width="1240" height="627" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1603409946254">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="100" y="123" width="1240" height="627" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.827@0.23.1440.827" timestamp="1603409946254" />
-    <state width="1398" height="156" key="GridCell.Tab.0.bottom" timestamp="1603490242708">
-      <screen x="0" y="23" width="1440" height="827" />
+    <state width="1240" height="276" key="GridCell.Tab.0.bottom" timestamp="1603570200073">
+      <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state width="1398" height="156" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1603490242708" />
+    <state width="1398" height="276" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1603490376117" />
     <state width="1398" height="306" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1603402804906" />
-    <state width="1398" height="156" key="GridCell.Tab.0.center" timestamp="1603490242707">
-      <screen x="0" y="23" width="1440" height="827" />
+    <state width="1240" height="276" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1603570200073" />
+    <state width="1240" height="276" key="GridCell.Tab.0.center" timestamp="1603570200071">
+      <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state width="1398" height="156" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1603490242707" />
+    <state width="1398" height="276" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1603490376116" />
     <state width="1398" height="306" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1603402804906" />
-    <state width="1398" height="156" key="GridCell.Tab.0.left" timestamp="1603490242707">
-      <screen x="0" y="23" width="1440" height="827" />
+    <state width="1240" height="276" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1603570200071" />
+    <state width="1240" height="276" key="GridCell.Tab.0.left" timestamp="1603570200070">
+      <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state width="1398" height="156" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1603490242707" />
+    <state width="1398" height="276" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1603490376115" />
     <state width="1398" height="306" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1603402804906" />
-    <state width="1398" height="156" key="GridCell.Tab.0.right" timestamp="1603490242707">
-      <screen x="0" y="23" width="1440" height="827" />
+    <state width="1240" height="276" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1603570200070" />
+    <state width="1240" height="276" key="GridCell.Tab.0.right" timestamp="1603570200072">
+      <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state width="1398" height="156" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1603490242707" />
+    <state width="1398" height="276" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1603490376117" />
     <state width="1398" height="306" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1603402804906" />
+    <state width="1240" height="276" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1603570200072" />
     <state x="664" y="200" width="689" height="472" key="find.popup" timestamp="1603378248954">
       <screen x="0" y="23" width="1440" height="827" />
     </state>

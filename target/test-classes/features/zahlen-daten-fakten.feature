@@ -1,4 +1,4 @@
-@wip
+@wip @zah
 Feature: Verifyig the foundation year
   Scenario: The foundation year should see be same
     Given the user access HomePage
