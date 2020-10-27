@@ -16,6 +16,7 @@ import org.openqa.selenium.interactions.Actions;
 public class ZahlenDatenFaktenStepdefinitions {
 
     Logger log = LoggerFactory.getLogger(ZahlenDatenFaktenStepdefinitions.class);
+
     static String erfahrungAtHomePage;
 
     @When("the user navigate to {string}")
@@ -40,8 +41,7 @@ public class ZahlenDatenFaktenStepdefinitions {
         Actions actions = new Actions(Driver.get());
         actions.moveToElement(new HomePage().conSenseTab).perform();
 
-        System.out.println("zahlenDatenFaktenisDisplayed()) = " + (new HomePage().zahlenDatenFakten.isDisplayed()));
-
+        System.out.println("zahlenDatenFaktenisDisplayed() = " + new HomePage().zahlenDatenFakten.isDisplayed());
 
         //use executeScript
         jse.executeScript("arguments[0].click();",new HomePage().zahlenDatenFakten);
