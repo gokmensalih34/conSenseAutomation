@@ -2,22 +2,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
     <artifactId>conSenseAutomation</artifactId>
-    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <parallel>true</parallel>
-        <ReportName>conSense Cucumber Report</ReportName>
     </properties>
+
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -51,6 +46,7 @@
 
     </dependencies>
 
+
     <build>
         <plugins>
             <plugin>
@@ -59,9 +55,7 @@
                 <version>2.22.2</version>
                 <configuration>
                     <parallel>methods</parallel>
-                    <threadCount>1</threadCount>
-                    <perCoreThreadCount>${parallel}</perCoreThreadCount>
-                    <testFailureIgnore>true</testFailureIgnore>
+                    <useUnlimitedThreads>true</useUnlimitedThreads>
                     <runOrder>Alphabetical</runOrder>
                     <includes>
                         <include>**/*CukesRunner.java</include>
@@ -80,18 +74,19 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <projectName>${ReportName}</projectName>
+                            <projectName>conSense HTML Reports</projectName>
                             <outputDirectory>${project.build.directory}</outputDirectory>
                             <inputDirectory>${project.build.directory}</inputDirectory>
                             <jsonFiles>
                                 <param>**/cucumber*.json</param>
                             </jsonFiles>
-                            <checkBuildResult>false</checkBuildResult>
                         </configuration>
                     </execution>
                 </executions>
             </plugin>
         </plugins>
     </build>
+
+
 
 </project>

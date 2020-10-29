@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-10-29T22:37:03.419Z",
+        "start_timestamp": "2020-10-29T23:41:31.833Z",
         "before": [
           {
             "result": {
-              "duration": 1626821000,
+              "duration": 2613887000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 98881000,
+              "duration": 99425000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2788313000,
+              "duration": 4024226000,
               "status": "passed"
             },
             "line": 4,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 7923000,
+              "duration": 8300000,
               "status": "passed"
             },
             "line": 5,
@@ -65,7 +65,7 @@
           },
           {
             "result": {
-              "duration": 242928000,
+              "duration": 175537000,
               "status": "passed"
             },
             "line": 6,
@@ -172,11 +172,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-10-29T22:37:08.233Z",
+        "start_timestamp": "2020-10-29T23:41:31.830Z",
         "before": [
           {
             "result": {
-              "duration": 1049611000,
+              "duration": 2661385000,
               "status": "passed"
             },
             "match": {
@@ -198,7 +198,7 @@
               }
             ],
             "result": {
-              "duration": 647255000,
+              "duration": 668839000,
               "status": "passed"
             },
             "match": {
@@ -211,7 +211,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2814612000,
+              "duration": 3586493000,
               "status": "passed"
             },
             "line": 4,
@@ -223,7 +223,7 @@
           },
           {
             "result": {
-              "duration": 12405239000,
+              "duration": 12452962000,
               "status": "passed"
             },
             "line": 5,
@@ -242,7 +242,7 @@
           {
             "result": {
               "error_message": "org.junit.ComparisonFailure: Verifing the displayed experice years are same expected:\u003c1[7]\u003e but was:\u003c1[5]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat com.conSense.stepdefinitions.ZahlenDatenFaktenStepdefinitions.the_foundation_years_are_same_at_and(ZahlenDatenFaktenStepdefinitions.java:64)\n\tat ✽.the foundation years are same at \"HomePage\" and \"zahlen-daten-fakten Page\"(file:///Users/sgok/IdeaProjects/conSenseAutomation/src/test/resources/features/zahlen-daten-fakten.feature:6)\n",
-              "duration": 4292679000,
+              "duration": 4524766000,
               "status": "failed"
             },
             "line": 6,
