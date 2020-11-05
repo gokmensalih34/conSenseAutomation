@@ -8,4 +8,5 @@ public class ZahlenDatenFakten extends BasePage{
     @FindBy(xpath = "//div[text()='15']")
     public WebElement erfahrungInJahre;
 
+
 }
