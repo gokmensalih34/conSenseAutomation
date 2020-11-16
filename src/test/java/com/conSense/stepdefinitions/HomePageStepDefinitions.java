@@ -26,6 +26,7 @@ public class HomePageStepDefinitions {
     public void the_page_title_is(String expectedTitle) {
         String actualTitle = Driver.get().getTitle();
         System.out.println("actualTitle = " + actualTitle);
+        BrowserUtils.waitFor(2);
         Assert.assertEquals("Verify Page Title", expectedTitle,actualTitle);
     }
 
