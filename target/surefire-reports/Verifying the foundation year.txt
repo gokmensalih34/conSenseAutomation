@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: Verifying the foundation year
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 26.764 s <<< FAILURE! - in Verifying the foundation year
-The user should see the foundation year same at Home page and other pages(Verifying the foundation year)  Time elapsed: 23.946 s  <<< FAILURE!
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 31.789 s <<< FAILURE! - in Verifying the foundation year
+The user should see the foundation year same at Home page and other pages(Verifying the foundation year)  Time elapsed: 31.45 s  <<< FAILURE!
 org.junit.ComparisonFailure: Verifing the displayed experice years are same expected:<1[7]> but was:<1[5]>
 
-The user should see the foundation year same at Home page and other pages(Verifying the foundation year)  Time elapsed: 26.763 s  <<< FAILURE!
+The user should see the foundation year same at Home page and other pages(Verifying the foundation year)  Time elapsed: 31.787 s  <<< FAILURE!
 org.junit.ComparisonFailure: Verifing the displayed experice years are same expected:<1[7]> but was:<1[5]>
 
