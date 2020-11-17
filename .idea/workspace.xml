@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="427c5fad-9f25-4cda-8725-587f5227d81a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/conSense/stepdefinitions/HomePageStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/conSense/stepdefinitions/HomePageStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/conSense/stepdefinitions/ZahlenDatenFaktenStepdefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/conSense/stepdefinitions/ZahlenDatenFaktenStepdefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/conSenseAutomation-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/conSenseAutomation-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" afterDir="false" />
@@ -16,13 +16,11 @@
       <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_2149510624.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_2149510624.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded0.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/embedded0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.conSense.runners.CukesRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.conSense.runners.CukesRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.conSense.runners.CukesRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.conSense.runners.CukesRunner.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/conSense/stepdefinitions/HomePageStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/conSense/stepdefinitions/HomePageStepDefinitions.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,39 +108,43 @@
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="100" y="123" width="1240" height="627" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.827@0.23.1440.827" timestamp="1604010205160" />
+    <state x="66" y="40" width="1322" height="771" key="CommitChangelistDialog2" timestamp="1605566461815">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="66" y="40" width="1322" height="771" key="CommitChangelistDialog2/0.23.1440.827@0.23.1440.827" timestamp="1605566461815" />
     <state x="100" y="123" width="1240" height="626" key="DiffContextDialog" timestamp="1603637642174">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="100" y="123" width="1240" height="626" key="DiffContextDialog/0.23.1440.829@0.23.1440.829" timestamp="1603637537086" />
     <state x="100" y="123" width="1240" height="626" key="DiffContextDialog/0.23.1440.830@0.23.1440.830" timestamp="1603637642174" />
-    <state width="1398" height="140" key="GridCell.Tab.0.bottom" timestamp="1604884938719">
+    <state width="1398" height="291" key="GridCell.Tab.0.bottom" timestamp="1605610028735">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1398" height="140" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1604884938719" />
+    <state width="1398" height="291" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1605610028735" />
     <state width="1398" height="265" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1603637111775" />
     <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1603637855463" />
     <state width="1398" height="243" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1604611829238" />
     <state width="1240" height="276" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1603570200073" />
-    <state width="1398" height="140" key="GridCell.Tab.0.center" timestamp="1604884938719">
+    <state width="1398" height="291" key="GridCell.Tab.0.center" timestamp="1605610028734">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1398" height="140" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1604884938719" />
+    <state width="1398" height="291" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1605610028734" />
     <state width="1398" height="265" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1603637111773" />
     <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1603637855462" />
     <state width="1398" height="243" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1604611829237" />
     <state width="1240" height="276" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1603570200071" />
-    <state width="1398" height="140" key="GridCell.Tab.0.left" timestamp="1604884938718">
+    <state width="1398" height="291" key="GridCell.Tab.0.left" timestamp="1605610028734">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1398" height="140" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1604884938718" />
+    <state width="1398" height="291" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1605610028734" />
     <state width="1398" height="265" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1603637111773" />
     <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1603637855461" />
     <state width="1398" height="243" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1604611829237" />
     <state width="1240" height="276" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1603570200070" />
-    <state width="1398" height="140" key="GridCell.Tab.0.right" timestamp="1604884938719">
+    <state width="1398" height="291" key="GridCell.Tab.0.right" timestamp="1605610028735">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1398" height="140" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1604884938719" />
+    <state width="1398" height="291" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1605610028735" />
     <state width="1398" height="265" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1603637111774" />
     <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1603637855462" />
     <state width="1398" height="243" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1604611829237" />

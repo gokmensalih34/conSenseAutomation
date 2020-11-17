@@ -24,9 +24,9 @@ public class HomePageStepDefinitions {
 
     @Then("the page title is {string}")
     public void the_page_title_is(String expectedTitle) {
+        BrowserUtils.waitFor(2);
         String actualTitle = Driver.get().getTitle();
         System.out.println("actualTitle = " + actualTitle);
-        BrowserUtils.waitFor(2);
         Assert.assertEquals("Verify Page Title", expectedTitle,actualTitle);
     }
 
@@ -36,7 +36,7 @@ public class HomePageStepDefinitions {
         if (tab.equalsIgnoreCase("homepage")) {
             List<String> actualTabs = BrowserUtils.getElementsText(new HomePage().mainNavBar);
             System.out.println(actualTabs);
-            Assert.assertEquals(expectedTabs, actualTabs);
+            Assert.assertEquals("Verifing Tabs at Home Page", expectedTabs, actualTabs);
         }
     }
 

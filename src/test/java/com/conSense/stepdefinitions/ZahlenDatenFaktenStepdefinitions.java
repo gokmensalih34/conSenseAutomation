@@ -5,8 +5,6 @@ import com.conSense.pages.HomePage;
 import com.conSense.pages.ZahlenDatenFakten;
 import com.conSense.utilities.BrowserUtils;
 import com.conSense.utilities.Driver;
-import io.cucumber.core.logging.Logger;
-import io.cucumber.core.logging.LoggerFactory;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
@@ -14,8 +12,6 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.interactions.Actions;
 
 public class ZahlenDatenFaktenStepdefinitions {
-
-    Logger log = LoggerFactory.getLogger(ZahlenDatenFaktenStepdefinitions.class);
 
     static String erfahrungAtHomePage;
 
@@ -65,8 +61,7 @@ public class ZahlenDatenFaktenStepdefinitions {
 
         BrowserUtils.waitFor(2);
 
-//        log.info("zahlenDatenFakten = " + zahlenDatenFaktenPage);
-        Assert.assertEquals("Verifing the displayed experice years are same", homePage,zahlenDatenFaktenPage);
+        Assert.assertEquals("Verifing the displayed experience years are same", homePage,zahlenDatenFaktenPage);
 
     }
 
