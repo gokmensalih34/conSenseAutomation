@@ -61,7 +61,7 @@ public class ZahlenDatenFaktenStepdefinitions {
 
         BrowserUtils.waitFor(2);
 
-        Assert.assertEquals("Verifing the displayed experice years are same", homePage,zahlenDatenFaktenPage);
+        Assert.assertEquals("Verifing the displayed experience years are same", homePage,zahlenDatenFaktenPage);
 
     }
 
